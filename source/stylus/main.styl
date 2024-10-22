@@ -1,0 +1,50 @@
+@font-face
+  font-family 'HelveticaNeueCyr-Bold'
+  src url('../fonts/HelveticaNeueCyr-Bold.woff'), url('../fonts/HelveticaNeueCyr-Bold.woff2')
+  font-display swap
+@font-face
+  font-family 'HelveticaNeueCyr-Medium'
+  src url('../fonts/HelveticaNeueCyr-Medium.woff'), url('../fonts/HelveticaNeueCyr-Medium.woff2')
+  font-display swap
+@font-face
+  font-family 'HelveticaNeueCyr-Roman'
+  src url('../fonts/HelveticaNeueCyr-Roman.woff'), url('../fonts/HelveticaNeueCyr-Roman.woff2')
+  font-display swap
+
+
+@import 'common/variables'
+@import 'common/*'
+@import 'components/*'
+
+body
+  margin 0 auto
+  font-size 18px
+  font-family 'HelveticaNeueCyr-Roman'
+  font-weight 400
+  line-height 120%
+  color #303234
+
+.layout
+  width 100%
+  height 100%
+  margin 0 auto
+  display flex
+  flex-direction column
+  overflow-x hidden
+.main
+  flex 1
+
+.wrapper
+  max-width 320px
+  margin 0 auto
+  padding 0 6px
+  width 100%
+  +above($breakpoints.sm)
+    max-width 750px
+    padding 0 12px
+  +above($breakpoints.md)
+    max-width 996px
+    padding 0 15px
+  +above($breakpoints.xxl)
+    padding 0 20px
+    max-width 1220px

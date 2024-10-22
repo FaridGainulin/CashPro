@@ -1,0 +1,18 @@
+header.header
+  .wrapper
+    .header__container
+      .header__brand-block
+        img.header__logo(src="images/logo-header.png" loading="lazy" width="560" height="108" alt="logo")
+        .header__brand
+          .header__line
+          .font-s-16
+            | «CashPro»
+            br
+            | Франшиза магазина
+            br
+            | техники Apple
+      .header__connection
+        a(href="tel:+70000000000")
+          img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="19" height="19" alt="icon")
+        include ../components/phone-number.pug
+        //- .header__call-me.btn.btn--call-me(data-remodal-target="modal-form-call-me") обратный звонок

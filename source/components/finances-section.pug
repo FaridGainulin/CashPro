@@ -1,0 +1,78 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__headphone-img(src="images/finances-section-headphone-img.png" loading="lazy" width="459" height="463" alt="icon")
+      img.finances-section__gamepad-img(src="images/finances-section-gamepad-img.png" loading="lazy" width="1176" height="1087" alt="icon")
+      img.finances-section__logo-img(src="images/finances-section-logo-img.png" loading="lazy" width="1358" height="922" alt="icon")
+      h2.finances-section__title.font-w-bold.font-s-36.text-up
+        span.color-green «CashPro»
+        | : за 3 года работы
+        br.no-br
+        | открыли уже 
+        span.color-green 2 
+        | прибыльных 
+        span.color-green точки сети
+      .finances-section__sub-title.font-s-20
+        | Показатели франшизы в цифрах
+      .swiper-basic
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up 20 месяцев
+            .font-s-20
+              | Срок окупаемости 
+              br.no-br
+              | одной точки
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up от 210 000 ₸
+            .font-s-20
+              | Средний чек одного 
+              br.no-br
+              | клиента
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up 1 250 000 ₸
+            .font-s-20
+              | Ежемесячная 
+              br.no-br
+              | чистая прибыль
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up 22 700 000 ₸
+            .font-s-20
+              | Средний размер 
+              br.no-br
+              | инвестиций
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up от 110 продаж
+            .font-s-20
+              | Будет совершаться 
+              br.no-br
+              | ежемесячно
+          .finances-section__card.swiper-slide
+            .font-w-bold.font-s-36.color-green.text-up 22 700 000 ₸
+            .font-s-20
+              | Ежемесячная 
+              br.no-br
+              | выручка
+        .basic-pagination.swiper-progress-basic
+      .finances-section__bottom
+        .finances-section__bottom-text
+          .finances-section__bottom-text-title.font-w-bold.font-s-24.text-up
+            | Узнайте, какими 
+            br.no-br
+            | будут 
+            span.color-green точные расчеты 
+            br.no-br
+            | для вашего города и 
+            br.no-br
+            | под ваш бюджет
+          .font-s-20
+            | Скачайте 
+            span.color-green финансовую 
+            br.no-br
+            span.color-green модель 
+            | франшизы
+        form.finances-section__form(data-feedback-form)
+          img.finances-section__bottom-icon(src="images/finances-section-bottom-icon.png" loading="lazy" width="870" height="528" alt="icon")
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") скачать

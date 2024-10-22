@@ -1,0 +1,82 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      img.about-section__phone-img(src="images/about-section-phone-img.png" loading="lazy" width="722" height="862" alt="image")
+      img.about-section__headphone-img(src="images/about-section-headphone-img.png" loading="lazy" width="1673" height="1675" alt="image")
+      img.about-section__case-img(src="images/about-section-case-img.png" loading="lazy" width="898" height="884" alt="image")
+      img.about-section__doc-img(src="images/about-section-doc-img.png" loading="lazy" width="565" height="483" alt="image")
+      h2.about-section__title.font-w-bold.font-s-36.text-up.text-center
+        | Предлагаем самые 
+        span.color-green выгодные условия 
+        br.no-br
+        | по системе trade in
+      .about-section__box
+        .about-section__box-text
+          .font-s-20
+            | Наша компания работает с 2021 и за это время мы смогли развить бизнес в 
+            br.no-br
+            | нескольких направлениях, как продажа новых и б/у устройств, так и в реализации 
+            br.no-br
+            | системы trade in, с помощью которой мы выделились на рынке и наработали 
+            br.no-br
+            | большую клиентскую базу.
+            br
+          .font-s-20
+            | Мы точно знаем, что нужно нашим клиентам, поэтому детально проработали все 
+            br.no-br
+            | процессы и передадим вам все необходимые инструменты, которые помогут вам 
+            br.no-br
+            | выстроить собственную систему с сильными конкурентными преимуществами.
+        .swiper-basic
+          .about-section__cards.swiper-wrapper
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+              .font-s-20
+                | Вы будете работать с использованием телеграм-бота франшизы, с помощью 
+                br.no-br
+                | которого сможете проводить оценку телефонов клиентов
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+              .font-s-20
+                | Мы передадим вам сильные маркетинговые инструменты, используя которые, 
+                br.no-br
+                | вы будете привлекать от 250+ заявок ежедневно
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+              .font-s-20
+                | Вы будете предоставлять клиентам гарантию от 1 года на всю технику и 
+                br.no-br
+                | качественные услуги сервисного центра
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+              .font-s-20
+                | Вам будет предоставлен доступ к сайту с каталогом сети с оформленным 
+                br.no-br
+                | ассортиментом телефонов
+            .about-section__card.swiper-slide
+              img.about-section__card-icon(src="images/about-section-card-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+              .font-s-20
+                | На этом же сайте ваши клиенты смогут оформлять рассрочку на технику, 
+                br.no-br
+                | благодаря уже встроенной интеграции с банками
+          .basic-pagination.swiper-progress-basic
+      .about-section__bottom
+        .about-section__bottom-text
+          .about-section__bottom-text-title.font-w-bold.font-s-24.text-up
+            | Узнайте больше о 
+            br.no-br
+            span.color-green «CashPro»
+          .font-s-20
+            | Получите 
+            span.color-green подробную 
+            br.no-br
+            span.color-green презентацию 
+            | франшизы 
+            br.no-br
+            | в 1 клик
+        form.about-section__form(data-feedback-form)
+          img.about-section__bottom-icon(src="images/about-section-bottom-icon.png" loading="lazy" width="763" height="528" alt="icon")
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить

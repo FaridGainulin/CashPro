@@ -1,0 +1,27 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-bold.font-s-39
+        | Откройте 
+        span.color-green собственный 
+        br
+        span.color-green магазин 
+        | техники Apple
+      .city-section__sub-title.font-w-bold.font-s-24
+        | и зарабатывайте от 
+        span.color-green 15 000 000 
+        br
+        | чистой прибыли в год
+      .city-section__text.font-w-medium.font-s-18
+        img.city-section__icon(src="images/city-section-icon.png" loading="lazy" width="174" height="240" alt="icon")
+        | Проверьте, свободен ли 
+        br.no-br
+        | ваш город для работы 
+        br.no-br
+        | по франшизе
+      form.city-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1657" height="889" alt="image")
