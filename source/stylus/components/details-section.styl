@@ -37,11 +37,22 @@
   &__card
     width 280px !important
     +above($breakpoints.sm)
+      transform: unset !important
       width 235px !important
     +above($breakpoints.md)
       width 308px !important
     +above($breakpoints.xxl)
       width 380px !important
+
+  &__card-desktop
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      width 480px !important
+    +above($breakpoints.md)
+      width 636px !important
+    +above($breakpoints.xxl)
+      width 780px !important
 
   &__card-img
     width 100%
@@ -53,3 +64,7 @@
       border-radius: 25px
     +above($breakpoints.xxl)
       border-radius: 30px
+
+  &__card-mobile
+    +above($breakpoints.sm)
+      display: none

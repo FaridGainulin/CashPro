@@ -13,8 +13,8 @@ if (!empty($_POST['honeyfield'])) {
 // Pre settings
 define('SND_FROM', '');
 define('SND_TO', 'test@yandex.ru'); // allowble comma-sepparated values
-define('SND_NAME', 'Mr.White');
-define('NAME_FRANCH', 'Mr.White');
+define('SND_NAME', 'CashPro');
+define('NAME_FRANCH', 'CashPro');
 define('SMTP', false); // see settings in Helper.php before you change this const
 define('SND_TO_BITRIX', false); // Разрешить отправку лидов в Битрикс. true - отправляем, false - запрещаем
 
